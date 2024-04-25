@@ -1,0 +1,44 @@
+.wrapper {
+ display: flex; 
+ flex-flow: row wrap;
+ text-align: center;
+ font-weight: bold;
+}
+.wrapper > * {
+ padding: 12px;
+ flex: 1 100%;
+ margin: 10px;
+ border-radius: 12px;
+}
+.header {
+ display:flex;	
+ justify-content: center;
+ background: darkviolet;
+ height: 120px;
+ 
+}
+.footer {
+	display:flex;	
+ justify-content: center;
+	background: darkviolet;
+	height: 80px:
+}
+.main {
+	display:flex;	
+ justify-content: center;
+ text-align: left;
+ background: gold;
+ height: 300px;
+ font-size: 32px;
+}
+.asideLeft {
+display:flex;	
+flex-direction: row;
+justify-content: space-around;
+ background: darkviolet;
+}
+.asideRight {
+display:flex;	
+ justify-content: center;
+ background: gold;
+ }
